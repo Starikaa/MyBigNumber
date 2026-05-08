@@ -1,48 +1,48 @@
-\# 🔢 MyBigNumber - Big Number Addition Tool
+# 🔢 MyBigNumber - Big Number Addition Tool
 
 
 
-Dự án cài đặt thuật toán cộng hai số nguyên lớn (Big Number) dưới dạng chuỗi, mô phỏng chính xác phương pháp cộng từng chữ số có nhớ của học sinh tiểu học. Dự án được phát triển bằng \*\*NestJS\*\* và \*\*TypeScript\*\*.
+Dự án cài đặt thuật toán cộng hai số nguyên lớn (Big Number) dưới dạng chuỗi, mô phỏng chính xác phương pháp cộng từng chữ số có nhớ của học sinh tiểu học. Dự án được phát triển bằng **NestJS** và **TypeScript**.
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
-\- ➕ \*\*Cộng số lớn không giới hạn:\*\* Xử lý các chuỗi số có độ dài vượt quá giới hạn của kiểu dữ liệu `Number` thông thường.
+- ➕ **Cộng số lớn không giới hạn:** Xử lý các chuỗi số có độ dài vượt quá giới hạn của kiểu dữ liệu `Number` thông thường.
 
-\- 📝 \*\*Lịch sử chi tiết (Step-by-Step Logging):\*\* Ghi lại từng bước cộng (lấy số nào cộng số nào, nhớ bao nhiêu) trực tiếp ra terminal.
+- 📝 **Lịch sử chi tiết (Step-by-Step Logging):** Ghi lại từng bước cộng (lấy số nào cộng số nào, nhớ bao nhiêu) trực tiếp ra terminal.
 
-\- 🧪 \*\*Unit Testing:\*\* Đảm bảo tính chính xác với bộ test case bao quát nhiều trường hợp (số bằng nhau, số lệch độ dài, cộng có nhớ ở hàng cao nhất).
+- 🧪 **Unit Testing:** Đảm bảo tính chính xác với bộ test case bao quát nhiều trường hợp (số bằng nhau, số lệch độ dài, cộng có nhớ ở hàng cao nhất).
 
-\- 🏗️ \*\*Kiến trúc tối giản:\*\* Được đóng gói trong Class riêng biệt theo yêu cầu tuyển dụng.
-
-
-
-\---
+- 🏗️ **Kiến trúc tối giản:** Được đóng gói trong Class riêng biệt theo yêu cầu tuyển dụng.
 
 
 
-\## 📋 Requirements
+---
 
 
 
-\- \*\*Node.js\*\* ≥ 24.11.1
-
-\- \*\*npm\*\* ≥ 11.14.0
+## 📋 Requirements
 
 
 
-\---
+- **Node.js** ≥ 24.11.1
+
+- **npm** ≥ 11.14.0
 
 
 
-\## 🚀 Quick Start
+---
 
 
 
-\### 1️⃣ Clone Repository
+## 🚀 Quick Start
+
+
+
+### 1️⃣ Clone Repository
 
 ```bash
 

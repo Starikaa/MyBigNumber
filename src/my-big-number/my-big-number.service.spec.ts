@@ -15,17 +15,15 @@ describe('MyBigNumberService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
-  it('nên cộng đúng: "1234" + "897" = "2131"', () => {
-    expect(service.sum("1234", "897")).toBe("2131");
+  it('nên cộng đúng: "1234973258" + "897348959" = "2132322217"', () => {
+    expect(service.sum("1234973258", "897348959")).toBe("2132322217");
   });
 
-  // Test case 2: Cộng có nhớ ở hàng cuối cùng
-  it('nên xử lý có nhớ ở hàng cuối: "99" + "1" = "100"', () => {
-    expect(service.sum("99", "1")).toBe("100");
+  it('nên xử lý có nhớ ở hàng cuối: "000000000" + "00000000000" = "0"', () => {
+    expect(service.sum("000000000", "00000000000")).toBe("0");
   });
 
-  // Test case 3: Cộng hai số có độ dài khác biệt lớn
-  it('nên cộng đúng số nhỏ với số rất lớn: "1" + "9999" = "10000"', () => {
-    expect(service.sum("1", "9999")).toBe("10000");
+  it('nên cộng đúng số nhỏ với số rất lớn: "1" + "99999999999999999999999" = "100000000000000000000000"', () => {
+    expect(service.sum("1", "99999999999999999999999")).toBe("100000000000000000000000");
   });
 });

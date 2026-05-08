@@ -19,6 +19,8 @@ export class MyBigNumber {
             i--;
             j--;
         }
+        res = res.replace(/^0+/, '');
+        res = res === '' ? '0' : res;
         console.log(`=> Kết quả cuối cùng: ${res}`);
         return res;
     }
