@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    const result = this.MyBigNumber.sum("123456789", "987654321");
+      const result = this.myBigNumberService.sum("647291312", "987654321");
     return `Kết quả là: ${result}. Hãy xem chi tiết các bước cộng trong Terminal/Console!`;
   }
 }
